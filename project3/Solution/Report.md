@@ -1,6 +1,9 @@
 ## Report 
 
 
+[image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
+ 
+ 
 We used MADDPG algorithm with share critic to solve this environment. 
 
 In this problem, we trained NNs for approximating policy for an individual agent.
@@ -33,7 +36,7 @@ target network also used.
 #### Solution
 Environment is solved in 854 episodes. 
 Agents are able to achieve 0.50 an average score over 100 episodes. 
-[image1]: 
+[image2]: "MADDPG_tennis.png"
 #### Future work 
 
 In future, I would like to explore hyperparameters and use TRPO, PPO algorithms in multi-agent environment.  
