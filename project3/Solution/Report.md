@@ -37,6 +37,9 @@ target network also used.
 Environment is solved in 854 episodes. 
 Agents are able to achieve 0.50 an average score over 100 episodes. 
 [image2]: "MADDPG_tennis.png"
+
+##### Link to files
+ - Weights: [actor0](https://github.com/krishnakantsingh14/ReinforcementLearning-Udacity-P1/blob/master/project3/Solution/cp_actor_0.pth), [actor1](https://github.com/krishnakantsingh14/ReinforcementLearning-Udacity-P1/blob/master/project3/Solution/cp_actor_1.pth), [critic](https://github.com/krishnakantsingh14/ReinforcementLearning-Udacity-P1/blob/master/project3/Solution/cp_critic.pth), [Tennis_notebook]  (https://github.com/krishnakantsingh14/ReinforcementLearning-Udacity-P1/blob/master/project3/Solution/Tennis.ipynb)
 #### Future work 
 
 In future, I would like to explore hyperparameters and use TRPO, PPO algorithms in multi-agent environment.  
