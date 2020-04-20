@@ -1,20 +1,3 @@
-## Report 
-
-
-We used MADDPG algorithm with share critic to solve this environment. 
-
-In this problem, we trained NNs for approximating policy for an individual agent. Therefore, we trained two actor NN for policy approximation. On the otherhand, Q values has been approximated using a shared critic NN. Both NNs have identical architectures (except the output layer) with two hidden layers (256, 256) and
- relu activation units. The output layer of actor NN has 2 neurons with tanh as an activation function. It outputs a 2 dimensional vector and all values lies between -1 and 1. On the other hand, the last layer of critic NN has one neuron. Apart from that, replay buffer and
-target network also used. 
- 
- 
- #####  Hyperparameters
- --------------------
- 
- ###### NN training
-
-  - Optimizer: Adam[//]: # (Image References)
-
 [image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
 [image2]: https://user-images.githubusercontent.com/10624937/42135622-e55fb586-7d12-11e8-8a54-3c31da15a90a.gif "Soccer"
 
